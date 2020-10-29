@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     String text = ((ImageButton) view).getContentDescription().toString();
-                    Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Maps in order: Rust, Terminal, Raid, Summit, Fringe.", Toast.LENGTH_SHORT).show();
                 }
             });
 
